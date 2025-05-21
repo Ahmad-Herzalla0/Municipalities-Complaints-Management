@@ -1,79 +1,70 @@
-Online Complaint Submission System for Municipalities in Palestine
+# Online Complaint Submission System for Municipalities in Palestine
 
-Introduction
+## 📌 Introduction
 
-This project is an online platform designed to enable citizens to submit and track complaints to their local municipalities in Palestine, while providing municipal administrators with tools to manage these complaints efficiently. The system aims to modernize complaint handling, increase transparency, and improve public service delivery through a secure and user-friendly digital interface.
+This project is an **online platform** designed to enable citizens to **submit and track complaints** to their local municipalities in **Palestine**, while providing municipal administrators with tools to manage these complaints efficiently.
 
-Project Status
+The system aims to:
 
-The project is currently in the planning phase. The Software Requirements Specification (SRS) document has been completed and uploaded to the repository, outlining the system's requirements and planned development stages. Development has not yet started.
+- Modernize complaint handling.
+- Increase transparency.
+- Improve public service delivery.
+- Provide a **secure** and **user-friendly** digital interface.
 
-Server Requirements
+---
 
-To run the service on a server, the following hardware and software components are required:
+## 🚧 Project Status
 
-Hardware Requirements
+- 📝 **Planning Phase**: The project is currently in the planning phase.
+- 📄 **SRS Document**: A complete [Software Requirements Specification (SRS)](#) has been uploaded to the repository.
+- 🛠️ **Development**: Not yet started.
 
+---
 
+## 🖥️ Server Requirements
 
+### 🔧 Hardware
 
+- **Server**: Dedicated or virtual server with:
+  - Multi-core CPU
+  - Minimum **16 GB RAM**
+  - SSD storage (**100 GB+**)
+- **Backup Storage**: Cloud backup (e.g., **AWS S3**, **Google Cloud Storage**) or physical backup server.
+- **Network Infrastructure**: Reliable connection with firewalls, routers, and load balancers.
 
-Server: A dedicated or virtual server with a multi-core CPU, at least 16GB RAM, and an SSD with 100GB or more storage to handle user traffic and data.
+### 💽 Software
 
+- **Web Server**: Apache or Nginx
+- **Database**: MySQL
+- **Security**:
+  - HTTPS/SSL encryption
+  - Web Application Firewall (WAF)
+  - Role-Based Access Control (RBAC)
 
+---
 
-Backup Server or Cloud Storage: For regular backups of user data, complaints, and logs (e.g., AWS S3 or Google Cloud Storage).
+## 🛠️ Technologies Used
 
+### 🔙 Back-end
 
+- **Language**: PHP  
+- **Database**: MySQL
 
-Network Infrastructure: Reliable connectivity with firewalls, routers, and load balancers for security and performance.
+### 🎨 Front-end
 
-Software Requirements
+- **Technologies**: HTML5, CSS3, JavaScript  
+- **Frameworks** (optional): React.js or Vue.js for enhanced UI/UX
 
+---
 
+## 📚 Additional Information
 
+- 📘 The [SRS Document](#) provides detailed functional and non-functional system requirements.
+- 🔄 Development will follow the **Spiral Model**, enabling iterative improvement and risk management.
+- 📦 Once development begins, this README will be updated with:
+  - Setup instructions
+  - Contribution guidelines
 
+---
 
-Web Server Software: Apache or Nginx to host the website and manage HTTP requests.
-
-
-
-Database Management System: MySQL for storing user profiles, complaints, and administrative data.
-
-
-
-Security Tools: HTTPS/SSL for encrypted data transmission, Web Application Firewall (WAF) for protection, and role-based access control (RBAC) for permissions.
-
-Programming Languages
-
-The system will be built using the following technologies:
-
-
-
-
-
-Back-end: PHP for server-side logic and database interactions.
-
-
-
-Front-end: HTML5, CSS3, and JavaScript for a responsive user interface, with potential use of frameworks like React or Vue.js.
-
-
-
-Database: MySQL for structured data storage.
-
-Additional Information
-
-
-
-
-
-The SRS document, available in the repository, provides a detailed reference for the system's functional and non-functional requirements.
-
-
-
-Development will follow the Spiral Model, with iterative cycles to manage risks and refine the system.
-
-
-
-Once development begins, this README will be updated with setup instructions and contribution guidelines.
+> 🇵🇸 This project is dedicated to enhancing municipal services for the people of Palestine through accessible and modern digital tools.
